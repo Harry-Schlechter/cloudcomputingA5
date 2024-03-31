@@ -1,0 +1,4 @@
+- uses: 'google-github-actions/auth@v2'
+  with:
+    service_account: 'my-service-account@my-project.iam.gserviceaccount.com'
+    workload_identity_provider: 'projects/1075075215017/locations/global/workloadIdentityPools/github/providers/my-repo'
